@@ -1,0 +1,15 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 307" width="380" height="200">
+	<title>premium-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { opacity: .3;fill: #6c63ff } 
+		.s1 { fill: #6c63ff } 
+	</style>
+	<path id="Layer" class="s0" d="m89.18 112.01h434v1h-434v-1h0z" />
+	<path id="Layer" class="s0" d="m89.68 137.01h434v1h-434v-1h0z" />
+	<path id="Layer" class="s0" d="m89.68 187.01h434v1h-434v-1h0z" />
+	<path id="Layer" class="s0" d="m89.68 209.01h434v1h-434v-1h0z" />
+	<path id="Layer" class="s0" d="m89.68 162.01h434v1h-434v-1h0z" />
+	<path id="Layer" class="s1" d="m101.72 209.73l-1.38-1.45l64.6-61.57l56.95 40.96l46.05-51.06l20.19 17.16l54.93-32.96l61.01 41.01l95.76-54.47l0.99 1.74l-96.84 55.08l-60.99-40.99l-55.07 33.04l-19.81-16.84l-45.95 50.94l-57.05-41.04l-63.4 60.43v0l0.01 0.02z" />
+	<path id="Layer" class="s1" d="m499.18 125.51c-7.19 0-13-5.81-13-13c0-7.19 5.81-13 13-13c7.19 0 13 5.81 13 13c0 7.19-5.81 13-13 13h0z" />
+</svg>

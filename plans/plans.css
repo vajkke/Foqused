@@ -1,0 +1,498 @@
+
+
+main{
+	font-family: 'Anonymous Pro', monospace;
+	overflow: hidden;
+}
+
+
+/*INTRO*/
+
+.new-team_section{
+	padding-top: 3rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+
+}
+.left-side{
+	display: flex;
+	flex-direction: column;
+	color: #fefffe;
+}
+
+.new_team-heading1{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 700;
+	color: #5747EB;
+	
+}
+
+.new_team-heading2{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.new_team-text1,
+.new_team-text2{
+	font-size: 1rem;
+	text-align: center;
+	
+}
+.new_team-text2{
+	margin-bottom: 2rem;
+}
+
+.team_into-photo{
+	margin-top: 2rem;
+	height: auto;
+	width: 100%;
+	max-width: 500px;
+}
+
+/*TEAM PLAN*/
+
+
+.team{
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+
+}
+
+.team-plan__intro{
+	color: #fefffe;
+	font-size: 1.1rem;
+	margin-top: 2rem;
+}
+
+.team-plan{
+	width: 100%;
+	max-width: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid #fefffe;
+	color: #fefffe;
+	border-radius: 15px;
+	background: #5747EB ;
+}
+
+.team-photo{
+	background:#121118;
+	width: 100%;
+	max-width: 330px;
+	height: 150px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom: 2px solid #fefffe;
+}
+
+.team-photo img{
+	width: 100%;
+}
+
+.plan-info{
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.plan-header{
+	margin-bottom: 1rem;
+	font-size: 1.8rem;
+}
+
+.plan-text{
+	width: 80%;
+	font-weight: 400;
+	line-height: 1.4;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.price{
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.price-info{
+	margin-bottom: 2rem;
+	opacity: 0.8;
+}
+
+
+
+
+/*REGULAR PLANS */
+
+
+
+.regular-plans{
+	padding: 7rem 0;
+}
+
+.regular-header{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #fefffe;
+	text-align: center;
+}
+
+
+.plan-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	padding-top: 2rem;
+}
+
+.plan{
+	width: 100%;
+	max-width: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid #fefffe;
+	color: #fefffe;
+	border-radius: 15px;
+	background: #5747EB ;
+	margin: 2rem;
+}
+
+.plan-photo{
+	background:#121118;
+	width: 100%;
+	max-width: 330px;
+	height: 150px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom: 2px solid #fefffe;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.plan-price{
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+.plan-price_off{
+	font-size: 1.3rem;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+.new-price{
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+
+
+
+
+/*BUTTON*/
+
+.buy{
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 11px;
+	cursor: pointer;
+	background: #fefffe;
+	font-size: 0.8rem;
+	font-weight: 900;
+	color: #121118;
+	border: 1px solid #fff;
+}
+
+.buy:hover,
+.buy:active{
+	background: #121118;
+	color: #fefffe;
+	transition: 600ms ease-in-out;
+}	
+
+
+
+
+
+@media(min-width: 900px){
+	.new-team_section{
+		flex-direction: row;
+		padding-top: 5rem;
+	}
+	.team_into-photo{
+		max-width: 700px;
+		min-width: 250px;
+	}
+	.new_team-heading1{
+		font-size: 5rem;
+	}
+	.new_team-text1,
+	.new_team-text2{
+	font-size: 1.2rem;
+	
+	}
+
+	.team-plan__intro{
+		margin-left: 5rem;
+		width: 35%;
+		margin-top: 5rem;
+		font-size: 1.6rem;
+	}
+	.team{
+		flex-direction: row;
+		align-items: flex-start;
+		margin-top: 7rem;
+	}
+
+	.plan{
+		margin: 2rem 2rem;
+	}
+}
+
+
+
+
+
+/*POP UP LOG IN*/
+
+
+
+.stop-scrolling{
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.blur{
+	filter: blur(20px);
+}
+
+.exit{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #fefffe;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	cursor: pointer;
+}
+
+.pop-up__center{
+	text-align: center;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	display: none;
+	font-family: 'Rubik', sans-serif;  
+	position: relative;
+	/*left: 50%;*/
+
+}
+
+.pop-up{
+	
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	width: 100%;
+	height: 33rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3rem 0;
+
+	z-index: 1000;
+}
+
+.pop-up__photo{
+	display: none;
+}
+
+
+.form-section--login{
+	padding: 3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/*display: none;*/
+}
+
+.form-heading__intro--login{
+	color: #fefffe;
+	margin-bottom: 3rem;
+	font-size: 2rem;
+}
+
+.login-form{
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.form-input{
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 11px;
+	padding: 0.4rem;
+}
+
+.no-account{
+	color: #fefffe;
+	margin-top: 2rem;
+}
+
+.signup__no-account{
+	color: #6c63ff;
+	font-weight: 700;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.signup__no-account:hover,
+.signup__no-account:active{
+	color: #1c1c1c;
+}
+
+#submit_button{
+	margin-top: 2rem;
+	width: 50%;
+	align-self: center;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+	border-radius: 11px;
+	font-size: 1.2rem;
+	padding: 0.2rem;
+}
+
+#submit_button:hover,
+#submit_button:active{
+	opacity: 0.7;
+}
+
+
+
+
+
+
+/*POP UP SIGN UP*/
+
+
+
+.form-section--signup{
+	padding: 3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	display: none;
+}	
+
+
+.form-heading__intro--signup{
+	color: #fefffe;
+	margin-bottom: 3rem;
+	font-size: 2rem;
+}
+
+.signup-form{
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.birthdate-label{
+	font-size: 0.9rem;
+}
+.birthdate{
+	margin-top: 1rem;
+	color: #fefffe;
+
+}
+
+select{
+	font-size: 0.9rem;
+
+}
+select::-webkit-scrollbar{
+ 	width: 0 !important 
+}
+
+
+@media(min-width: 900px){
+
+	.login-form{
+		width: auto;
+	}
+	.signup-form{
+		width: auto;
+	}
+
+	.form-heading__intro{
+		font-size: 3rem;
+	}
+
+	select{
+		font-size: 1.2rem;
+	}
+
+	.birthdate-label{
+		font-size: 1.2rem;
+	}
+
+	.form-section{
+		padding: 7rem 0;
+	}
+
+	.pop-up{
+		width: 55rem;
+		height: 40rem;
+		flex-direction: row;
+	}
+	.pop-up__photo{
+		display: flex;
+	}
+
+	.left-side{
+		margin-right: 2rem;
+	}
+
+	.login-form,
+	.signup-form{
+		margin-left: 2rem;
+	
+	}
+
+	.form-section--login,
+	.form-section--signup{
+		flex-direction: row;
+	}
+	
+}
