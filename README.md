@@ -1,0 +1,21 @@
+
+# Foqused
+
+My first bigger project. It's not finished yet though.
+
+
+## What have I learned from this project
+
+- Responsive website
+- Pixel-perfect
+- DOM Manipulation
+- 
+
+
+## Acknowledgements
+
+ - [unDraw](https://undraw.co/) - for me, the best open source website for free illustrations
+ - [Frontend Mentor](https://www.frontendmentor.io/) - very great website for challenges and inspiration. You will become better Frontend developer surely. 
+
+
+
