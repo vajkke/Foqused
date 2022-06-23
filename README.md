@@ -1,7 +1,7 @@
 
 # Foqused
 
-My first bigger project. It's not finished yet though.
+My first bigger project. It was a fun weekend.
 
 
 ## What have I learned from this project
@@ -9,7 +9,7 @@ My first bigger project. It's not finished yet though.
 - Responsive website
 - Pixel-perfect
 - DOM Manipulation
-- 
+- JavaScript Overall
 
 
 ## Acknowledgements
