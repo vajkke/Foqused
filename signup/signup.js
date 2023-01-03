@@ -1,8 +1,14 @@
-const loginBtn = document.querySelector('.login--here');
-const signupForm = document.querySelector('.signup-form');
-const loginForm = document.querySelector('.form-section--login');
+const loginBtnSwitch = document.querySelector(".login--here");
+const signupForm = document.querySelector(".signup-form");
+const loginForm = document.querySelector(".form-section--login");
 
-loginBtn.addEventListener('click', function(){
-	signupForm.style.display='none';
-	loginForm.style.display='flex';
-})
+const signUpBtn = document.querySelector("#submit_button");
+
+loginBtnSwitch.addEventListener("click", function (e) {
+  signupForm.style.display = "none";
+  loginForm.style.display = "flex";
+});
+
+signUpBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+});

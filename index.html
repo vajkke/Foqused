@@ -1,180 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Foqused</title>
-	<link rel="stylesheet" type="text/css" href="shared.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css"> 
-	<link rel="icon" href="./img/icon.png">
-</head>
-<body>
-	<nav class="main-nav">
-		<a href="index.html" class="logo"><div class="photo"></div></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foqused</title>
+    <link rel="stylesheet" type="text/css" href="shared.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css" />
+    <link rel="icon" href="./img/icon.png" />
+    <script type="module" defer src="shared.js"></script>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a href="index.html" class="logo"><div class="photo"></div></a>
 
-		<ul class="nav-items">
-			<a href="./plans/index.html" class="nav-item">plans<li></li></a>
-			<a href="./download/index.html" class="nav-item">download<li></li></a>
-			<a href="./signup/index.html" class="nav-item">sign up<li></li></a>
-		</ul>
+      <ul class="nav-items">
+        <a href="./plans/index.html" class="nav-item"
+          >plans
+          <li></li
+        ></a>
+        <a href="./download/index.html" class="nav-item"
+          >download
+          <li></li
+        ></a>
+        <a href="./signup/index.html" class="nav-item"
+          >sign up
+          <li></li
+        ></a>
+      </ul>
 
-		<div class="nav-toggle" id="navToggle">
-			  <i class="lni lni-menu" id="navClosed"></i>
-			  
-            
-              
-		</div>
-	</nav>
+      <div class="nav-toggle" id="navToggle">
+        <i class="lni lni-menu" id="navClosed"></i>
+      </div>
+    </nav>
 
-	<main>
-		<section class="intro">
-			<div class="intro-text">
-			<h1 class="intro-heading">BOOST YOUR PROGRESS WITH</h1>
-			<span><h1 class="foqused_word">FOQUSED</h1></span>
-			</div>
-			<div class="intro-photo">
-				<img src="./img/home/undraw_programming_re_kg9v.svg">
-			</div>
-		</section>
+    <main>
+      <section class="intro">
+        <div class="intro-text">
+          <h1 class="intro-heading">BOOST YOUR PROGRESS WITH</h1>
+          <span><h1 class="foqused_word">FOQUSED</h1></span>
+        </div>
+        <div class="intro-photo">
+          <img src="./img/home/undraw_programming_re_kg9v.svg" />
+        </div>
+      </section>
 
-		<section class="anal-section">
-				<h1 class="anal-heading">ANALYZE YOUR PROGRESS DOWN TO THE SMALLEST DETAILS</h1>
-				<div class="anal-photo">
-					<img src="./img/home/undraw_analytics_re_dkf8.svg">	
-				</div>
-		</section>
+      <section class="anal-section">
+        <h1 class="anal-heading">
+          ANALYZE YOUR PROGRESS DOWN TO THE SMALLEST DETAILS
+        </h1>
+        <div class="anal-photo">
+          <img src="./img/home/undraw_analytics_re_dkf8.svg" />
+        </div>
+      </section>
 
-		<section class="preview-section">
+      <section class="preview-section">
+        <div class="name-card card">
+          <div class="photo__name">
+            <div class="profile-photo"></div>
+            <span class="name">Jeremy Robson</span>
+          </div>
+          <div class="details">
+            <ul class="time-list">
+              <li class="time time-daily">Daily</li>
+              <li class="time time-weekly">Weekly</li>
+              <li class="time time-monthly">Monthly</li>
+            </ul>
+          </div>
+        </div>
 
-				<div class="name-card card">
-					<div class="photo__name">
-					<div class="profile-photo"></div>
-					<span class="name">Jeremy Robson</span>
-					</div>
-					<div class="details">
-					<ul class="time-list">
-						<li class="time">Daily</li>
-						<li class="time">Weekly</li>
-						<li class="time">Monthly</li>
-					</ul>
-					</div>
-				</div>
+        <div class="work-card card">
+          <div class="work-photo">
+            <img src="./img/home/preview/icon-work.svg" />
+          </div>
+          <div class="bottom-part">
+            <div class="left-side">
+              <h3 class="card-header">Work</h3>
+              <h3 class="card-time"><span class="work-value">32hrs</span></h3>
+            </div>
+            <div class="right-side">
+              <i class="lni lni-more" id="dots"></i>
+              <p class="card-text">
+                <span class="work-previous-time">Last week</span> -
+                <span class="work-past-value">36hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-				<div class="work-card card">
-					<div class="work-photo">
-						<img src="./img/home/preview/icon-work.svg">
-					</div>
-					<div class="bottom-part">
-						<div class="left-side">
-							<h3 class="card-header">Work </h3>
-							<h3 class="card-time">32hrs</h3>
-						</div>
-						<div class="right-side">
-							<i class="lni lni-more" id="dots"></i>
-							<p class="card-text">Last week - 36hrs</p>
-						</div>
-					</div>
-				</div>
+        <div class="play-card card">
+          <div class="play-photo">
+            <img src="./img/home/preview/icon-play.svg" />
+          </div>
+          <div class="bottom-part">
+            <div class="left-side">
+              <h3 class="card-header">Play</h3>
+              <h3 class="card-time"><span class="play-value">10hrs</span></h3>
+            </div>
+            <div class="right-side">
+              <i class="lni lni-more" id="dots"></i>
+              <p class="card-text">
+                <span class="play-previous-time">Last week</span> -
+                <span class="play-past-value">8hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-				<div class="play-card card">
-					<div class="play-photo">
-						<img src="./img/home/preview/icon-play.svg">
-					</div>
-					<div class="bottom-part">
-						<div class="left-side">
-							<h3 class="card-header">Play</h3>
-							<h3 class="card-time">10hrs</h3>
-						</div>
-						<div class="right-side">
-							<i class="lni lni-more" id="dots"></i>
-							<p class="card-text">Last week - 8hrs</p>
-						</div>
-					</div>
-				</div>
+        <div class="study-card card">
+          <div class="study-photo">
+            <img src="./img/home/preview/icon-study.svg" />
+          </div>
+          <div class="bottom-part">
+            <div class="left-side">
+              <h3 class="card-header">Study</h3>
+              <h3 class="card-time"><span class="study-value">4hrs</span></h3>
+            </div>
+            <div class="right-side">
+              <i class="lni lni-more" id="dots"></i>
+              <p class="card-text">
+                <span class="study-previous-time">Last week</span> -
+                <span class="study-past-value">7hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-				<div class="study-card card">
-					<div class="study-photo">
-						<img src="./img/home/preview/icon-study.svg">
-					</div>
-					<div class="bottom-part">
-						<div class="left-side">
-							<h3 class="card-header">Study</h3>
-							<h3 class="card-time">4hrs</h3>
-						</div>
-						<div class="right-side">
-							<i class="lni lni-more" id="dots"></i>
-							<p class="card-text">Last week - 7hrs</p>
-						</div>
-					</div>
-				</div>
+        <div class="exercise-card card">
+          <div class="exercise-photo">
+            <img src="./img/home/preview/icon-exercise.svg" />
+          </div>
+          <div class="bottom-part">
+            <div class="left-side">
+              <h3 class="card-header">Exercise</h3>
+              <h3 class="card-time">
+                <span class="exercise-value">4hrs</span>
+              </h3>
+            </div>
+            <div class="right-side">
+              <i class="lni lni-more" id="dots"></i>
+              <p class="card-text">
+                <span class="exercise-previous-time">Last week</span> -
+                <span class="exercise-past-value">5hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-				<div class="exercise-card card">
-					<div class="exercise-photo">
-						<img src="./img/home/preview/icon-exercise.svg">
-					</div>
-					<div class="bottom-part">
-						<div class="left-side">
-							<h3 class="card-header">Exercise</h3>
-							<h3 class="card-time">4hrs</h3>
-						</div>
-						<div class="right-side">
-							<i class="lni lni-more" id="dots"></i>
-							<p class="card-text">Last week - 5hrs</p>
-						</div>
-					</div>
-				</div>
+        <div class="social-card card">
+          <div class="social-photo">
+            <img src="./img/home/preview/icon-social.svg" />
+          </div>
+          <div class="bottom-part">
+            <div class="left-side">
+              <h3 class="card-header">Social</h3>
+              <h3 class="card-time">
+                <span class="social-value">5hrs</span>
+              </h3>
+            </div>
+            <div class="right-side">
+              <i class="lni lni-more" id="dots"></i>
+              <p class="card-text">
+                <span class="social-previous-time">Last week</span> -
+                <span class="social-past-value">10hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-				<div class="social-card card">
-					<div class="social-photo">
-						<img src="./img/home/preview/icon-social.svg">
-					</div>
-					<div class="bottom-part">
-						<div class="left-side">
-							<h3 class="card-header">Social</h3>
-							<h3 class="card-time">5hrs</h3>
-						</div>
-						<div class="right-side">
-							<i class="lni lni-more" id="dots"></i>
-							<p class="card-text">Last week - 10hrs</p>
-						</div>
-					</div>
-				</div>
+        <div class="self_care-card card">
+          <div class="self_care-photo">
+            <img src="./img/home/preview/icon-self-care.svg" />
+          </div>
+          <div class="bottom-part">
+            <div class="left-side">
+              <h3 class="card-header">Self Care</h3>
+              <h3 class="card-time">
+                <span class="selfCare-value">2hrs</span>
+              </h3>
+            </div>
+            <div class="right-side">
+              <i class="lni lni-more" id="dots"></i>
+              <p class="card-text">
+                <span class="selfCare-previous-time">Last week</span> -
+                <span class="selfCare-past-value">2hrs</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-				<div class="self_care-card card">
-					<div class="self_care-photo">
-						<img src="./img/home/preview/icon-self-care.svg">
-					</div>
-					<div class="bottom-part">
-						<div class="left-side">
-							<h3 class="card-header">Self Care</h3>
-							<h3 class="card-time">2hrs</h3>
-						</div>
-						<div class="right-side">
-							<i class="lni lni-more" id="dots"></i>
-							<p class="card-text">Last week - 2hrs</p>
-						</div>
-					</div>
-				</div>
-				
-
-		</section>
-	</main>
-
-	<footer class="main-footer">
-		
-		<form class="newsletter-form">
-			
-			<label for="email" class="footer-label">Subscribe to our Newsletter</label>
-			<input type="email" id="email-form" name="email">
-		</form>
-		<div class="footer-logo"></div>
-		<ul class="social-media__links">
-			<a href="#" class="social-media__link"><i class="lni lni-facebook-original"></i><li></li></a>
-			<a href="#" class="social-media__link"><li><i class="lni lni-instagram-original"></i></li></a>
-			<a href="#" class="social-media__link"><li><i class="lni lni-twitter-original"></i></li></a>
-		</ul>
-	</footer>
-	<script type="text/javascript" src="shared.js"></script>
-</body>
+    <footer class="main-footer">
+      <form class="newsletter-form">
+        <label for="email" class="footer-label"
+          >Subscribe to our Newsletter</label
+        >
+        <input type="email" id="email-form" name="email" />
+      </form>
+      <div class="footer-logo"></div>
+      <ul class="social-media__links">
+        <a
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="_blank"
+          class="social-media__link"
+          ><i class="lni lni-facebook-original"></i>
+          <li></li
+        ></a>
+        <a
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="_blank"
+          class="social-media__link"
+          ><li><i class="lni lni-instagram-original"></i></li
+        ></a>
+        <a
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="_blank"
+          class="social-media__link"
+          ><li><i class="lni lni-twitter-original"></i></li
+        ></a>
+      </ul>
+    </footer>
+  </body>
 </html>

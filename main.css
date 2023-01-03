@@ -1,425 +1,393 @@
-
 /*INTRO SECTION*/
 
-.intro{
-	z-index: -1;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 3rem;
-	flex-direction: column;
-
+.intro {
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  flex-direction: column;
 }
-.intro-text{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-wrap: wrap;
-	width: 90%;
-	max-width: 90%;
-	text-align: center;
-	
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 90%;
+  text-align: center;
 }
-.intro-heading{
-	font-weight: 500;
-	color: #fefffe;
-	font-size: 3rem;
+.intro-heading {
+  font-weight: 500;
+  color: #fefffe;
+  font-size: 3rem;
 }
-.foqused_word{
-	
-	font-weight: 700;
-	font-size: 3.5rem;
-	color: #fefffe;
-	text-align: center;
-	margin-bottom: 2rem;
+.foqused_word {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #fefffe;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.intro-photo img{
-	width: 100%;
-	max-width: 500px;
-	height: auto;
-	
+.intro-photo img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
 /*ANAL SECTION*/
 
-.anal-section{
-	padding-top: 5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
+.anal-section {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
-.anal-photo img{
-	width: 100%;
-	max-width: 500px;
-	height: auto;
-	
+.anal-photo img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
-.anal-heading{
-	font-size: 1.2rem;
-	color: #fefffe;
-	width: 100%;
-	margin-bottom: 1.2rem;
-	text-align: center;
+.anal-heading {
+  font-size: 1.2rem;
+  color: #fefffe;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  text-align: center;
 }
-
 
 /*REMINDER SECTION*/
 
+.preview-section {
+  padding-top: 5rem;
+  display: grid;
 
-
-.preview-section{
-	padding-top: 5rem;
-	display: grid;
-
-	grid-template-rows: auto;
-	grid-template-areas: "name"
-						 "work"
-						 "play"
-						 "study"
-						 "exercise"
-						 "social"
-						 "selfcare";
-	justify-content: center;
-	grid-row-gap: 1rem;
-	color: #fefffe;
-	font-family: 'Rubik', sans-serif;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "name"
+    "work"
+    "play"
+    "study"
+    "exercise"
+    "social"
+    "selfcare";
+  justify-content: center;
+  grid-row-gap: 1rem;
+  color: #fefffe;
+  font-family: "Rubik", sans-serif;
 }
 
-
-
-.name-card{	
-	background: #0C1223;
-	height: auto;
-	border-top-left-radius: 100%;
-	border-top-right-radius: 100%;
-	grid-area: name;
-	
+.name-card {
+  background: #0c1223;
+  height: auto;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  grid-area: name;
 }
 
-.photo__name{
-	background: #5747EB;
-	width: 300px;
-	height: 100px;
-	border-radius: 15px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.photo__name {
+  background: #5747eb;
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.name{
-	background: #5747eB;
-	font-size: 1.2rem;
-	font-weight: 400;
+.name {
+  background: #5747eb;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
-.profile-photo{
-	background: url(./img/home/preview/image-jeremy.png);
-	background-position: center;
-	background-size: cover;
-	border: 3px solid #fefffe;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-	margin-right: 1.2rem;
+.profile-photo {
+  background: url(./img/home/preview/image-jeremy.png);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid #fefffe;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 1.2rem;
 }
 
-.time-list{
-	list-style: none;
-	display: flex;
-	background: #0C1223;
-	padding: 1.2rem;	
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	justify-content: space-between;
+.time-list {
+  list-style: none;
+  display: flex;
+  background: #0c1223;
+  padding: 1.2rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  justify-content: space-between;
 }
 
-
-.time{
-	background: #0c1223;
-	opacity: 0.7;
-	cursor: pointer;
+.time {
+  background: #0c1223;
+  opacity: 0.7;
+  cursor: pointer;
 }
-.time:hover{
-	opacity: 1;
-}
-
-
-
-.card{
-	width: 300px;
-	height: auto;
-	background: #0c1223;
-	border-radius: 15px;
+.time:hover {
+  opacity: 1;
 }
 
-
-.work-card{
-	grid-area: work;
-	
+.time-weekly {
+  opacity: 1;
 }
 
-.work-photo{
-	background: #FF8A65;
-	height: 55px;
-	overflow: hidden;
-	display: flex;
-	justify-content: flex-end;
-	border-radius: 15px;
-	
+.card {
+  width: 300px;
+  height: auto;
+  background: #0c1223;
+  border-radius: 15px;
 }
 
-.work-photo img{
-	background: #ff8a65;
-	height: 75px;
-	width: 75px;
-	margin-right: 1rem;
+.work-card {
+  grid-area: work;
 }
 
-
-
-.bottom-part{
-	background: #0c1223;
-	border-radius: 15px;
-	display: flex;
-	align-items: center;
-	padding: 1.5rem;
-	justify-content: space-between;
-	position: relative;
-}
-.left-side{
-	display: flex;
-	flex-direction: column;
-}
-.right-side{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
+.work-photo {
+  background: #ff8a65;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
 }
 
-.card-header{
-	font-size: 1rem;
-	font-weight: 400;
+.work-photo img {
+  background: #ff8a65;
+  height: 75px;
+  width: 75px;
+  margin-right: 1rem;
 }
 
-.card-time{
-	font-size: 2rem;
-	font-weight: 400;
+.bottom-part {
+  background: #0c1223;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  justify-content: space-between;
+  position: relative;
 }
-#dots{
-	font-size: 1.5rem;
-	color: #fefffe;
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	cursor: pointer;
+.left-side {
+  display: flex;
+  flex-direction: column;
 }
-
-.card-text{
-	opacity: 0.8;
-}
-
-.play-card{
-	grid-area: play;
-}
-.play-photo{
-	background: #57C2E7;
-	height: 55px;
-	overflow: hidden;
-	display: flex;
-	justify-content: flex-end;
-	border-radius: 15px;
-	
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.play-photo img{
-	background: #57C2E7;
-	height: 75px;
-	width: 75px;
-	margin-right: 1rem;
+.card-header {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-
-.study-card{
-	grid-area: study;
+.card-time {
+  font-size: 2rem;
+  font-weight: 400;
 }
-.study-photo{
-	background: #FF5E7D;
-	height: 55px;
-	overflow: hidden;
-	display: flex;
-	justify-content: flex-end;
-	border-radius: 15px;
-	
-}
-
-.study-photo img{
-	background: #FF5E7D;
-	height: 75px;
-	width: 75px;
-	margin-right: 1rem;
+#dots {
+  font-size: 1.5rem;
+  color: #fefffe;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
 }
 
-.exercise-card{
-	grid-area: exercise;
-}
-.exercise-photo{
-	background: #4ACF82;
-	height: 55px;
-	overflow: hidden;
-	display: flex;
-	justify-content: flex-end;
-	border-radius: 15px;
-	
+.card-text {
+  opacity: 0.8;
 }
 
-.exercise-photo img{
-	background: #4ACF82;
-	height: 75px;
-	width: 75px;
-	margin-right: 1rem;
+.play-card {
+  grid-area: play;
+}
+.play-photo {
+  background: #57c2e7;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
 }
 
-
-.social-card{
-	grid-area: social;
-}
-.social-photo{
-	background: #7234D0;
-	height: 55px;
-	overflow: hidden;
-	display: flex;
-	justify-content: flex-end;
-	border-radius: 15px;
-	
+.play-photo img {
+  background: #57c2e7;
+  height: 75px;
+  width: 75px;
+  margin-right: 1rem;
 }
 
-.social-photo img{
-	background: #7234D0;
-	height: 75px;
-	width: 75px;
-	margin-right: 1rem;
+.study-card {
+  grid-area: study;
+}
+.study-photo {
+  background: #ff5e7d;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
 }
 
-
-.self_care-card{
-	grid-area: selfcare;
-}
-.self_care-photo{
-	background: #F0C65B;
-	height: 55px;
-	overflow: hidden;
-	display: flex;
-	justify-content: flex-end;
-	border-radius: 15px;
-	
+.study-photo img {
+  background: #ff5e7d;
+  height: 75px;
+  width: 75px;
+  margin-right: 1rem;
 }
 
-.self_care-photo img{
-	background: #F0C65B;
-	height: 75px;
-	width: 75px;
-	margin-right: 1rem;
+.exercise-card {
+  grid-area: exercise;
+}
+.exercise-photo {
+  background: #4acf82;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
 }
 
-
-
-
-
-@media(min-width: 1200px){
-	.intro{
-		flex-direction: row;
-	}
-	.intro-text{
-		width: 50%;
-	}
-	.intro-photo{
-		margin-right: 2rem;
-	}
-	.intro-photo img{
-		max-width: 700px;
-		
-	}
-	.anal-heading{
-		margin-bottom: 2.5rem;
-		font-size: 2rem;
-		width: 60%;
-	}
-	.anal-section{
-		padding-top: 5rem;
-	}
-	.anal-photo{
-		margin-right: 2rem;
-	}
-	.anal-photo img{
-		max-width: 600px;
-	}
-
-
-	
+.exercise-photo img {
+  background: #4acf82;
+  height: 75px;
+  width: 75px;
+  margin-right: 1rem;
 }
 
-@media(min-width: 900px){
-
-	.preview-section{
-		grid-template-columns: repeat(auto-fit, minmax(200px,280px));
-		grid-template-rows: auto;
-		grid-template-areas: "name work play study"
-							 "name exercise social selfcare";				 
-		justify-content: center;
-		grid-column-gap: 2rem;
-		color: #fefffe;
-		padding-bottom: 5rem;
-		margin-top: 3rem;
-	}
-
-	.time-list{
-		flex-direction: column;
-		font-size: 1.5rem;
-	}
-	.time{
-		margin-top: 2rem;
-	}
-	.photo__name{
-		height: 300px;
-		flex-direction: column;
-	}
-	.name{
-		font-size: 2rem;
-	}
-	.profile-photo{
-		width: 90px;
-		height: 90px;
-	}
-
-	.bottom-part{
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 1rem;
-	}
-	
-	.card-header{
-		font-size: 2rem;
-	}
-	.card-time{
-		font-size: 4rem;
-	}
-	.card-text{
-		font-size: 1.2rem;
-	}
-
+.social-card {
+  grid-area: social;
+}
+.social-photo {
+  background: #7234d0;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
 }
 
+.social-photo img {
+  background: #7234d0;
+  height: 75px;
+  width: 75px;
+  margin-right: 1rem;
+}
 
-@media(min-width: 900px) and (max-width: 1200px) {
-	.preview-section{
-		grid-template-columns: repeat(auto-fit, minmax(240px,300px));
-		grid-template-rows: auto;
-		grid-template-areas: "name work play"
-						     "name exercise study"
-						     "name social selfcare";
-	}
+.self_care-card {
+  grid-area: selfcare;
+}
+.self_care-photo {
+  background: #f0c65b;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
+}
+
+.self_care-photo img {
+  background: #f0c65b;
+  height: 75px;
+  width: 75px;
+  margin-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    flex-direction: row;
+  }
+  .intro-text {
+    width: 50%;
+  }
+  .intro-photo {
+    margin-right: 2rem;
+  }
+  .intro-photo img {
+    max-width: 700px;
+  }
+  .anal-heading {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    width: 60%;
+  }
+  .anal-section {
+    padding-top: 5rem;
+  }
+  .anal-photo {
+    margin-right: 2rem;
+  }
+  .anal-photo img {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 900px) {
+  .preview-section {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 280px));
+    grid-template-rows: auto;
+    grid-template-areas:
+      "name work play study"
+      "name exercise social selfcare";
+    justify-content: center;
+    grid-column-gap: 2rem;
+    color: #fefffe;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+  }
+
+  .time-list {
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+  .time {
+    margin-top: 2rem;
+  }
+  .photo__name {
+    height: 300px;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .profile-photo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .bottom-part {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .card-header {
+    font-size: 2rem;
+  }
+  .card-time {
+    font-size: 4rem;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .preview-section {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+    grid-template-rows: auto;
+    grid-template-areas:
+      "name work play"
+      "name exercise study"
+      "name social selfcare";
+  }
 }

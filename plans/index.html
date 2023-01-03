@@ -1,241 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Foqused &bull; Plans</title>
-	<link rel="stylesheet" type="text/css" href="../shared.css">
-	<link rel="stylesheet" type="text/css" href="plans.css">
-	<link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css"> 
-	<link rel="icon" href="../img/icon.png">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foqused &bull; Plans</title>
+    <link rel="stylesheet" type="text/css" href="../shared.css" />
+    <link rel="stylesheet" type="text/css" href="plans.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css" />
+    <link rel="icon" href="../img/icon.png" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a href="../index.html" class="logo"><div class="photo"></div></a>
 
-	<nav class="main-nav">
-		<a href="../index.html" class="logo"><div class="photo"></div></a>
+      <ul class="nav-items">
+        <a href="index.html" class="nav-item"
+          >plans
+          <li></li
+        ></a>
+        <a href="../download/index.html" class="nav-item"
+          >download
+          <li></li
+        ></a>
+        <a href="../signup/index.html" class="nav-item"
+          >sign up
+          <li></li
+        ></a>
+      </ul>
 
-		<ul class="nav-items">
-			<a href="index.html" class="nav-item">plans<li></li></a>
-			<a href="../download/index.html" class="nav-item">download<li></li></a>
-			<a href="../signup/index.html" class="nav-item">sign up<li></li></a>
-		</ul>
+      <div class="nav-toggle" id="navToggle">
+        <i class="lni lni-menu" id="navClosed"></i>
+      </div>
+    </nav>
 
-		<div class="nav-toggle" id="navToggle">
-			  <i class="lni lni-menu" id="navClosed"></i>
-			  
-            
-              
-		</div>
-	</nav>
+    <!-- POP UP -->
+    <div class="pop-up__center">
+      <!-- LOG IN -->
 
-	<!-- POP UP -->
-<div class="pop-up__center">
-		<!-- LOG IN -->
-	
-	
-		<div class="pop-up">
-			<h1 class="exit">X</h1>
-			<section class="form-section--login">
-				<div class="left-side">
-					<h3 class="form-heading__intro--login">You are not logged in</h3>
-					<img src="../img/plans/pop-up.svg" class="pop-up__photo">
-				</div>	
-				<form action="login" class="login-form">
-					<input type="email" id="email" name="email" placeholder="E-mail: marina5@gmail.com" class="form-input">
-					<input type="password" id="pwd" name="pwd" placeholder="Password: 555" class="form-input">
-					
-					<input type="submit" value="LOG IN" id="submit_button">
-					<p class="no-account">Don't have an account yet? <span class="signup__no-account">Sign Up</span></p>
-				</form>
-			</section>
+      <div class="pop-up">
+        <h1 class="exit">X</h1>
+        <section class="form-section--login">
+          <div class="left-side">
+            <h3 class="form-heading__intro--login">You are not logged in</h3>
+            <img src="../img/plans/pop-up.svg" class="pop-up__photo" />
+          </div>
+          <form class="login-form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail:"
+              class="form-input"
+            />
+            <input
+              type="password"
+              id="pwd"
+              name="pwd"
+              placeholder="Password:"
+              class="form-input"
+            />
 
+            <input type="submit" value="LOG IN" id="submit_button" />
+            <p class="no-account">
+              Don't have an account yet?
+              <span class="signup__no-account">Sign Up</span>
+            </p>
+          </form>
+        </section>
 
+        <!-- SIGN UP -->
 
-		<!-- SIGN UP -->
+        <section class="form-section--signup">
+          <div class="left-side">
+            <h3 class="form-heading__intro--signup">JOIN OUR TEAM</h3>
+            <img src="../img/plans/signup.svg" class="pop-up__photo" />
+          </div>
+          <form class="signup-form">
+            <input
+              type="text"
+              id="fname"
+              placeholder="First name: "
+              class="form-input"
+            />
+            <input
+              type="text"
+              id="lname"
+              placeholder="Last name: "
+              class="form-input"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail: "
+              class="form-input"
+            />
+            <input
+              type="password"
+              id="pwd"
+              name="pwd"
+              placeholder="Password: "
+              class="form-input"
+            />
+            <div class="birthdate">
+              <label for="date" class="birthdate-label">Date of birth: </label>
+              <select name="month" id="month">
+                <option selected>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <select name="day" id="day">
+                <option selected>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+              </select>
+              <select name="year" id="year">
+                <option selected>1985</option>
+                <option>1986</option>
+                <option>1987</option>
+                <option>1988</option>
+                <option>1989</option>
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+              </select>
+            </div>
+            <input type="submit" value="SIGN UP" id="submit_button" />
+          </form>
+        </section>
+      </div>
+    </div>
 
-			<section class="form-section--signup">
-				<div class="left-side">
-					<h3 class="form-heading__intro--signup">JOIN OUR TEAM</h3>
-					<img src="../img/plans/signup.svg" class="pop-up__photo">
-				</div>	
-			<form action="signup" class="signup-form">
-					<input type="text" id="fname" placeholder="First name: " class="form-input">
-					<input type="text" id="lname" placeholder="Last name: " class="form-input">
-					<input type="email" id="email" name="email" placeholder="E-mail: " class="form-input">
-					<input type="password" id="pwd" name="pwd" placeholder="Password: " class="form-input">
-					<div class="birthdate">
-					<label for="date" class="birthdate-label">Date of birth: </label>
-					<select name="month" id="month">
-						<option selected>01</option>
-						<option>02</option>
-						<option>03</option>
-						<option>04</option>
-						<option>05</option>
-						<option>06</option>
-						<option>07</option>
-						<option>08</option>
-						<option>09</option>
-						<option>10</option>
-						<option>11</option>
-						<option>12</option>
-					</select>
-					<select name="day" id="day">
-						<option selected>01</option>
-						<option>02</option>
-						<option>03</option>
-						<option>04</option>
-						<option>05</option>
-						<option>06</option>
-						<option>07</option>
-						<option>08</option>
-						<option>09</option>
-						<option>10</option>
-						<option>11</option>
-						<option>12</option>
-						<option>13</option>
-						<option>14</option>
-						<option>15</option>
-						<option>16</option>
-						<option>17</option>
-						<option>18</option>
-						<option>19</option>
-						<option>20</option>
-						<option>21</option>
-						<option>22</option>
-						<option>23</option>
-						<option>24</option>
-						<option>25</option>
-						<option>26</option>
-						<option>27</option>
-						<option>28</option>
-						<option>29</option>
-						<option>30</option>
-						<option>31</option>
-					</select>
-					<select name="year" id="year">
-						<option selected>1985</option>
-						<option>1986</option>
-						<option>1987</option>
-						<option>1988</option>
-						<option>1989</option>
-						<option>1990</option>
-						<option>1991</option>
-						<option>1992</option>
-						<option>1993</option>
-						<option>1994</option>
-						<option>1995</option>
-						<option>1996</option>
-						<option>1997</option>
-						<option>1998</option>
-						<option>1999</option>
-						<option>2000</option>
-						<option>2001</option>
-						<option>2002</option>
-						<option>2003</option>
-					</select>
-					</div>
-					<input type="submit" value="SIGN UP" id="submit_button">
-				</form>
+    <!-- END OF POP UP -->
 
-			</section>
+    <main class="">
+      <section class="new-team_section">
+        <div class="left-side">
+          <h1 class="new_team-heading1">NEW PLAN</h1>
+          <h2 class="new_team-heading2">BUY PLAN FOR YOUR WHOLE TEAM</h2>
+          <p class="new_team-text1">Up to 100 people in your offfice,</p>
+          <p class="new_team-text2">track your team progress on your device.</p>
+        </div>
+        <img src="../img/plans/team-intro.svg" alt="" class="team_into-photo" />
+      </section>
 
-		</div>
-	
-</div>
+      <section class="team">
+        <p class="team-plan__intro">Get 50% off for every 50th account</p>
+        <div class="team-plan">
+          <div class="team-photo">
+            <img src="../img/plans/team.svg" alt="" />
+          </div>
+          <div class="plan-info">
+            <h3 class="plan-header">TEAM PLAN</h3>
+            <p class="plan-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Explicabo amet laborum aliquam, autem. Aspernatur, suscipit.
+            </p>
+            <p class="price">30$</p>
+            <p class="price-info">for one acoount</p>
+            <button class="buy">BUY PLAN</button>
+          </div>
+        </div>
+      </section>
 
+      <section class="regular-plans">
+        <h1 class="regular-header">Our Regular Plans</h1>
 
-	<!-- END OF POP UP -->
+        <div class="plan-container">
+          <div class="plan">
+            <div class="plan-photo">
+              <img src="../img/plans/free.svg" alt="" />
+            </div>
+            <div class="plan-info">
+              <h3 class="plan-header">FREE PLAN</h3>
+              <p class="plan-text">
+                Limited tracking, only one device. Prefered for testing the app.
+              </p>
+              <p class="plan-price">$0</p>
+              <button class="buy">BUY PLAN</button>
+            </div>
+          </div>
 
+          <div class="plan">
+            <div class="plan-photo">
+              <img src="../img/plans/recommended.svg" alt="" />
+            </div>
+            <div class="plan-info">
+              <h3 class="plan-header">REGULAR PLAN</h3>
+              <p class="plan-text">
+                No limited tracking, up to 2 devices. Good for regular users.
+              </p>
+              <p class="plan-price_off">
+                <s>$14.99</s>&nbsp;<span class="new-price">$9.99</span>
+              </p>
+              <button class="buy">BUY PLAN</button>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="plan-photo">
+              <img src="../img/plans/premium.svg" alt="" />
+            </div>
+            <div class="plan-info">
+              <h3 class="plan-header">Premium PLAN</h3>
+              <p class="plan-text">
+                No limited tracking, and no limited number of devices. Premium
+                tracking app with all features.
+              </p>
+              <p class="plan-price_off">
+                <s>24.99</s>&nbsp;<span class="new-price">$19.99</span>
+              </p>
+              <button class="buy">BUY PLAN</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-	<main class="">
-			<section class="new-team_section">
-				<div class="left-side">
-					<h1 class="new_team-heading1">NEW PLAN</h1>
-					<h2 class="new_team-heading2">BUY PLAN FOR YOUR WHOLE TEAM</h2>
-					<p class="new_team-text1">Up to 100 people in your offfice,</p>
-					<p class="new_team-text2">track your team progress on your device.</p>
-				</div>
-				<img src="../img/plans/team-intro.svg" alt="" class="team_into-photo">
-			</section>
+    <footer class="main-footer">
+      <form class="newsletter-form">
+        <label for="email" class="footer-label"
+          >Subscribe to our Newsletter</label
+        >
+        <input type="email" id="email-form" name="email" />
+      </form>
+      <div class="footer-logo"></div>
+      <ul class="social-media__links">
+        <a href="#" class="social-media__link"
+          ><i class="lni lni-facebook-original"></i>
+          <li></li
+        ></a>
+        <a href="#" class="social-media__link"
+          ><li><i class="lni lni-instagram-original"></i></li
+        ></a>
+        <a href="#" class="social-media__link"
+          ><li><i class="lni lni-twitter-original"></i></li
+        ></a>
+      </ul>
+    </footer>
 
-			<section class="team">
-				<p class="team-plan__intro">Get 50% off for every 50th account</p>
-				<div class="team-plan">
-					<div class="team-photo">
-						<img src="../img/plans/team.svg" alt="">
-					</div>
-					<div class="plan-info">
-					<h3 class="plan-header">TEAM PLAN</h3>
-					<p class="plan-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo amet laborum aliquam, autem. Aspernatur, suscipit.</p>
-					<p class="price">30$</p>
-					<p class="price-info">for one acoount</p>
-					<button class="buy">BUY PLAN</button>
-					</div>	
-				</div>
-			</section>
-
-			<section class="regular-plans">
-
-				<h1 class="regular-header">Our Regular Plans</h1>
-
-			<div class="plan-container">
-
-				<div class="plan">
-					<div class="plan-photo">
-						<img src="../img/plans/free.svg" alt="">
-					</div>
-					<div class="plan-info">
-					<h3 class="plan-header">FREE PLAN</h3>
-					<p class="plan-text">Limited tracking, only one device. Prefered for testing the app.</p>
-					<p class="plan-price">$0</p>
-					<button class="buy">BUY PLAN</button>
-					</div>	
-				</div>
-
-				<div class="plan">
-					<div class="plan-photo">
-						<img src="../img/plans/recommended.svg" alt="">
-					</div>
-					<div class="plan-info">
-					<h3 class="plan-header">REGULAR PLAN</h3>
-					<p class="plan-text">No limited tracking, up to 2 devices. Good for regular users.</p>
-					<p class="plan-price_off"><s>$14.99</s>&nbsp;<span class="new-price">$9.99</span></p>
-					<button class="buy">BUY PLAN</button>
-					</div>	
-				</div>
-				<div class="plan">
-					<div class="plan-photo">
-						<img src="../img/plans/premium.svg" alt="">
-					</div>
-					<div class="plan-info">
-					<h3 class="plan-header">Premium PLAN</h3>
-					<p class="plan-text">No limited tracking, and no limited number of devices. Premium tracking app with all features.</p>
-					<p class="plan-price_off"><s>24.99</s>&nbsp;<span class="new-price">$19.99</span></p>
-					<button class="buy">BUY PLAN</button>
-					</div>	
-				</div>
-			</div>
-			</section>
-	</main>
-
-	<footer class="main-footer">
-		
-		<form class="newsletter-form">
-			
-			<label for="email" class="footer-label">Subscribe to our Newsletter</label>
-			<input type="email" id="email-form" name="email">
-		</form>
-		<div class="footer-logo"></div>
-		<ul class="social-media__links">
-			<a href="#" class="social-media__link"><i class="lni lni-facebook-original"></i><li></li></a>
-			<a href="#" class="social-media__link"><li><i class="lni lni-instagram-original"></i></li></a>
-			<a href="#" class="social-media__link"><li><i class="lni lni-twitter-original"></i></li></a>
-		</ul>
-	</footer>
-
-	<script type="text/javascript" src="../shared.js"></script>
-	<script type="text/javascript" src="plans.js"></script>
-	
-
-</body>
+    <script type="text/javascript" src="../shared.js"></script>
+    <script type="text/javascript" src="plans.js"></script>
+  </body>
 </html>
