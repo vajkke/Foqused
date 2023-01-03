@@ -1,7 +1,6 @@
 
 # Foqused
 
-My first bigger project. It was a fun weekend.
 
 
 ## What have I learned from this project
