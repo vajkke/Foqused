@@ -144,4 +144,4 @@ const appFunction = () => {
   });
 };
 
-export default appFunction;
+appFunction();
