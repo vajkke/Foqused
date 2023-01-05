@@ -9,7 +9,7 @@ Foqused is responsive website promoting fake product.
 ![alt text](https://i.ibb.co/Q916v4b/ezgif-1-14712f9753.gif)
 
 
-## Brief Overview:
+## Brief Overview
 
 This is my one of my favorite projects, I was happy choosing colors, SVG-s, and making it perfect for every device. This project massively improved my creativity.
 
