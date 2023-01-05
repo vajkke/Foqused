@@ -11,7 +11,7 @@ Foqused is responsive website promoting fake product.
 
 ## Brief Overview
 
-This is my one of my favorite projects, I was happy choosing colors, SVG-s, and making it perfect for every device. This project massively improved my creativity.
+This is one of my favorite projects, I was happy choosing colors, SVG-s, and making it perfect for every device. This project massively improved my creativity.
 
 
 ## What have I learned from this project
