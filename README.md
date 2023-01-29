@@ -29,4 +29,4 @@ This is one of my favorite projects, I was happy choosing colors, SVG-s, and mak
 ## Acknowledgements
 
  - [unDraw](https://undraw.co/) - for me, the best open source website for free illustrations
- - [Frontend Mentor](https://www.frontendmentor.io/) - very great website for challenges and inspiration. You will become better Frontend developer surely. 
+ - [Frontend Mentor](https://www.frontendmentor.io/) - very great website for challenges and inspiration. 
