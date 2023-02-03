@@ -28,5 +28,5 @@ This is one of my favorite projects, I was happy choosing colors, SVG-s, and mak
 
 ## Acknowledgements
 
- - [unDraw](https://undraw.co/) - for me, the best open source website for free illustrations
+ - [unDraw](https://undraw.co/) - for me, the best open source website for free illustrations.
  - [Frontend Mentor](https://www.frontendmentor.io/) - very great website for challenges and inspiration. 
